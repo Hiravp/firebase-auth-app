@@ -10,7 +10,7 @@ signupForm.addEventListener('submit', (e) => {
     createUserWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             console.log('User signed up:', userCredential.user);
-            // Redirect to home page or dashboard
+            SVGComponentTransferFunctionElement('Game.html');
         })
         .catch((error) => {
             console.error('Error signing up:', error);

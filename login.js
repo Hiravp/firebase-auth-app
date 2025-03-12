@@ -10,7 +10,7 @@ loginForm.addEventListener('submit', (e) => {
     signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             console.log('User logged in:', userCredential.user);
-            // Redirect to home page or dashboard
+            SVGComponentTransferFunctionElement('Game.html');
         })
         .catch((error) => {
             console.error('Error logging in:', error);

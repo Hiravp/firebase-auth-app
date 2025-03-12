@@ -51,9 +51,9 @@ function renderSignup() {
 function init() {
     const path = window.location.pathname;
     if (path.endsWith('login.html')) {
-        renderLogin();
+     //   renderLogin();
     } else if (path.endsWith('signup.html')) {
-        renderSignup();
+       // renderSignup();
     } else {
         renderLogin(); // Default to login
     }
