@@ -1,7 +1,9 @@
 // This file initializes the application, sets up Firebase authentication, and manages routing between the login and signup pages.
 
-import firebase from 'firebase/app';
-import 'firebase/auth';
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+import { getAuth } from "firebase/auth";
+
 import { firebaseConfig, auth } from './firebase-config';
 import login from './login';
 import signup from './signup';
