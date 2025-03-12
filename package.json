@@ -9,7 +9,10 @@
     "test": "echo 'No tests defined'"
   },
   "dependencies": {
-    "firebase": "^9.23.0"
+    "firebase": "^9.21.0",  
+    "@firebase/auth": "^4.21.0", 
+    "@firebase/firestore": "^4.21.0"
+    
   },
   "devDependencies": {
     "live-server": "^1.2.1"
