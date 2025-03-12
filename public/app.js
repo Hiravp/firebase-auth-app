@@ -3,8 +3,8 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
 import { firebaseConfig, auth } from './firebase-config';
-import login from './auth/login';
-import signup from './auth/signup';
+import login from './login';
+import signup from './signup';
 
 firebase.initializeApp(firebaseConfig);
 
